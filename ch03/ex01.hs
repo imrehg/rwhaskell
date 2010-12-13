@@ -4,5 +4,5 @@
 -- length function.
 elements :: [a] -> Int
 elements [] = 0
-elements (x:xs) = elements(xs) + 1
+elements (_:xs) = elements(xs) + 1
 
